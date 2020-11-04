@@ -1,0 +1,149 @@
+{
+  "main": {
+    "name": "Faisal AL Mahmud",
+    "occupation": "Full Stack Senior Software Engineer",
+    "description": "Currently, working with a future leading company based in Bangladesh which is already awarded in Digital Marketing/ Advertising Category at BASIS National ICT Awards 2019.",
+    "image": "profilepic.jpg",
+    "bio": "A passionate software developer who loved to take challenge, dedicated to work, open to learn, curious about new technology, self guided, self motivated and good team player. I believe that only skill and dedication can help someone to reach his goal.",
+    "contactmessage": "I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+    "email": "faisal.bd21@gmail.com",
+    "phone": "+880 1671 358954",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Dhaka",
+      "state": "Bangladesh",
+      "zip": "1216"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/faisal.bd21",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/dark_energee",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/faishal-ahammad/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/b33hub",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "National University",
+        "degree": "Masters in Physics",
+        "graduated": "September 2016",
+        "description": ""
+      },
+      {
+        "school": "National University",
+        "degree": "B.Sc Hon's (Physics)",
+        "graduated": "June 2014",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "CommEngine",
+        "title": "Senior Software Engineer",
+        "years": "July 2018 - Present",
+        "description": "Full Stack Developer with team leader role. Designing and building architecture, analyzing client requirements, developing system, fixing existing bugs, monitoring and guiding Junior Developers.."
+      },
+      {
+        "company": "Linkxtek",
+        "title": "Software Engineer",
+        "years": "May 2016 - June 2018",
+        "description": "Developing and Coding individual programs, fix existing programs bugs and extending features. Gathering & analyzing information, participating in daily scrum meetings."
+      }
+    ],
+    "skills": [
+      {
+        "name": "C#, ASP.NET, ASP.NET Core, MVC",
+        "level": "90%"
+      },
+      {
+        "name": "GoLang",
+        "level": "60%"
+      },
+      {
+        "name": "ASP.NET BoilerPlate",
+        "level": "95%"
+      },
+      {
+        "name": "SQL (MSSQL, MySqL, PostgreSql)",
+        "level": "70%"
+      },
+      {
+        "name": "ElasticSearch",
+        "level": "45%"
+      },
+      {
+        "name": "Angular 2.x",
+        "level": "60%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
