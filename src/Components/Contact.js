@@ -1,6 +1,26 @@
 import React, { Component } from 'react';
+import * as emailjs from 'emailjs-com'
 
 class Contact extends Component {
+
+   handleSubmit(e) {
+      e.preventDefault()
+      const { name, email, subject, message } = this.state
+      let templateParams = {
+         from_name: email,
+         to_name: '<YOUR_EMAIL_ID>',
+         subject: subject,
+         message_html: message,
+      }
+      emailjs.send(
+         'gmail',
+         'template_XXXXXXXX',
+         templateParams,
+         'user_XXXXXXXXXXXXXXXXXXXX'
+      )
+      this.resetForm()
+   }
+
    render() {
 
       if (this.props.data) {
@@ -13,6 +33,7 @@ class Contact extends Component {
          var email = this.props.data.email;
          var message = this.props.data.contactmessage;
       }
+
 
       return (
          <section id="contact">
