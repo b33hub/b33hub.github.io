@@ -69,6 +69,49 @@
         "description": "Developing and Coding individual programs, fix existing programs bugs and extending features. Gathering & analyzing information, participating in daily scrum meetings."
       }
     ],
+    "training": [
+      {
+        "organisation": "IDB-BISEW IT SCHOLARSHIP PROJECT",
+        "title": "ENTERPRISE SYSTEM ANALYSIS AND DESIGN - C# .NET",
+        "years": "Jan 2015 – May 2016",
+        "achievement": "BEST ACADEMIC PERFORMANCE AWARD"
+      },
+      {
+        "organisation": "CommEngine",
+        "title": "AGILE SCURM FOR HIGH PERFORMANCE TEAM",
+        "years": "Oct 2019",
+        "achievement": ""
+      },
+      {
+        "organisation": "BNCC (AIR FORCE WING)",
+        "title": "ANNUAL TRAINING CAMP",
+        "years": "Jan 2010",
+        "achievement": ""
+      },
+      {
+        "organisation": "BNCC (AIR FORCE WING)",
+        "title": "CAPSULE TRAINING CAMP",
+        "years": "June 2010",
+        "achievement": "BEST CADET AWARD"
+      }
+    ],
+    "voluntary": [
+      {
+        "organisation": "BNCC (AIR FORCE WING)",
+        "position": "Cadet Sergeant",
+        "years": "May 2008 - Oct 2011"
+      },
+      {
+        "organisation": "MRITTIKA ABRITTI SONGOTHON",
+        "position": "Joint Secretary",
+        "years": "Nov 2011 - Sept 2014"
+      },
+      {
+        "organisation": "ROTARACT CLUB OF COMILLA VICTORIA",
+        "position": "Joint Secretary",
+        "years": "Apr 2012 - Apr 2013"
+      }
+    ],
     "skills": [
       {
         "name": "C#, ASP.NET, ASP.NET Core, MVC",
