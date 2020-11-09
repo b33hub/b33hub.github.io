@@ -10,6 +10,7 @@ class Resume extends Component {
           <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
           <p>{education.description}</p></div>
       })
+
       var work = this.props.data.work.map(function (work) {
         return <div key={work.company}><h3>{work.company}</h3>
           <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
@@ -18,10 +19,27 @@ class Resume extends Component {
           }
         </div>
       })
+
+      var training = this.props.data.training.map(function (training) {
+        return <div key={training.title}><h3>{training.title}</h3>
+          <p className="info">{training.organisation}<span>&bull;</span> <em className="date">{training.years}</em></p>
+          {training.achievement.trim() !== "" &&
+            <p>{training.achievement}</p>
+          }
+        </div>
+      })
+
       var skills = this.props.data.skills.map(function (skills) {
         var className = 'bar-expand ' + skills.name.toLowerCase();
         return <li key={skills.name}><span style={{ width: skills.level }} className={className}></span><em>{skills.name}</em></li>
       })
+
+      var voluntary = this.props.data.voluntary.map(function (voluntary) {
+        return <div key={voluntary.organisation}><h3>{voluntary.organisation}</h3>
+          <p className="info">{voluntary.position}<span>&bull;</span> <em className="date">{voluntary.years}</em></p>
+        </div>
+      })
+
     }
 
     return (
@@ -53,6 +71,17 @@ class Resume extends Component {
           </div>
         </div>
 
+        <div className="row training">
+
+          <div className="three columns header-col">
+            <h1><span>Training</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+            {training}
+          </div>
+        </div>
+
 
 
         <div className="row skill">
@@ -73,6 +102,17 @@ class Resume extends Component {
             </div>
           </div>
         </div>
+        <div className="row training">
+
+          <div className="three columns header-col">
+            <h1><span>Voluntary</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+            {voluntary}
+          </div>
+        </div>
+
       </section>
     );
   }
