@@ -116,9 +116,21 @@
       },
       {
         "title": "Bhalogari",
-        "category": "Bhalogari.com is a digital niche of connecting car shoppers and sellers who are truly interested in buying or selling automobiles mostly classic cars.",
+        "category": "A digital niche of connecting car shoppers and sellers who are truly interested in buying or selling automobiles mostly classic cars.",
         "image": "bhalogari.png",
         "url": "http://bhalogari.com"
+      },
+      {
+        "title": "CommEngine",
+        "category": "First ever Bangladeshi tech startup that has created its own Social Customer Profiling and Social Media Lead Management tool together.",
+        "image": "commengine.png",
+        "url": "https://commengine.xyz"
+      },
+      {
+        "title": "Zachai",
+        "category": "Mobile, IoT and Blockchain Based Anti-Counterfeit Solution.",
+        "image": "zachai.png",
+        "url": "https://zachai.xyz"
       }
     ]
   },
